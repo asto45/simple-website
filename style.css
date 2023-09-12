@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;;
+    min-height: 100vh;
+    background-image:  url(red.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn{
+    display: flex;
+    padding: 20px 15px;
+    background: red;
+}
+
+.btn{
+    width: 5px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.content{
+    margin-top: 50px;
+    color: #fff;
+    max-width: 580px;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 15px;
+    margin-top: 60px;
+}
+.content form{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 15px;
+    margin-top: 35px;
+    height: 70px;
+}
+
+.content form input{
+    border: 0;
+    outline: 0;
+    width: 90%;
+    font-size: 16px; 
+    padding-left: 30px;
+}
+.content form .btn{
+    font-size: 14px;
+    padding: 20px 60px;
+    height: 30px;
+}
